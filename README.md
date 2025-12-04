@@ -5,10 +5,7 @@ Secure **Encrypt/Decrypt** tool using a hybrid cryptography scheme.
 * **AES-256-GCM** — fast, authenticated symmetric encryption
 * **RSA-OAEP (SHA-256)** — secure asymmetric key wrapping
 * Built with the **`cryptography`** Python library
-
----
-
-## 🔐 Overview
+# 🔐 Overview
 
 This project implements a hybrid encryption workflow:
 
@@ -18,8 +15,6 @@ This project implements a hybrid encryption workflow:
 4. Pack the encrypted AES key, nonce, and ciphertext into a single binary `.enc` file.
 
 The tool exposes a simple CLI to `gen-keys`, `encrypt`, `decrypt`, `encrypt-msg`, and `decrypt-msg`.
-
----
 
 ## 📦 Repository structure
 
